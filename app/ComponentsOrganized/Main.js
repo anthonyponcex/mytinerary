@@ -13,6 +13,7 @@ export default class Feed extends Component {
                           {/*Logo + Search + User Dropdown */}
                           {/*User Drop Down:
                           >My Profile 
+                                >
                           >Following
                           >Followers
                           >Settings
@@ -31,9 +32,12 @@ export default class Feed extends Component {
                             {/*Carousel + Featured*/}
                 <InProgress />
                             {/*Caoursel + UserProgress*/}
-                            {/*UserProgress*/}
+                            {/*UserProgress (Circle profile pics with progress circle ring around pic, 'day 1 of 10' = 10% done*
+                                >Will be able to view entries user has posted so far*/}
                 <UserFeed />
+                            {/*Cards/ Feed from the users Following - No Carousel - Endless Scroll *like instagram*/}
                 <Footer />
+
             </div>
 
             
