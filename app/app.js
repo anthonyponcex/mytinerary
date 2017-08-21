@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 // Include the main Parent Component
-import Landing from './components/1Landing/Landing';
+import Main from './Components/Main.js';
 
 // This code here allows us to render our main component (in this case Parent)
-ReactDOM.render(<Landing />, document.getElementById("app"));
+ReactDOM.render(<Main />, document.getElementById("app"));

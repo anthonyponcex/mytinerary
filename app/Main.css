@@ -1,0 +1,98 @@
+body {
+ font-family: 'Montserrat', sans-serif;
+ background: -webkit-linear-gradient(top, rgba(71,23,246,1) 0%, rgba(147,80,235,1) 30%, rgba(152,86,214,1) 64%, rgba(161,57,202,1) 99%, rgba(161,57,202,1) 100%);
+ background-size: cover;
+    }
+
+.navbar {
+        background-color: #4717f6;
+    }
+.navbar-toggler {
+        color:white;
+        border:0px;
+}
+    h1 {
+        font-weight:600;
+        }
+    .owl-item {
+        margin-bottom:10px;
+        border:5px;
+        border-radius: 25px;
+        background-color: lightcoral;
+        height:400px;
+        width:inherit;
+        background-image: url('http://w9lgeeo8yk1vk0pe3bkz9g12.wpengine.netdna-cdn.com/wp-content/uploads/2013/10/paris-vertical-.jpg');
+        background-size:     cover;     
+    }
+    .owl-item-content {
+        padding:20px;
+        height:240px;
+        position:relative;
+        top:40%;
+        color: #4717f6;
+        background-image: linear-gradient(to bottom,  rgba(255, 255, 255, 0.05),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9));
+       border:5px;
+        border-radius:25px;
+    }
+    .owl-item-date {
+        line-height:0px;
+        font-size:12px;
+    }
+    
+    div.owl-item-content:hover  {
+        background-image: none;
+    }
+    .owl-item-title {
+        font-size:40px;
+        line-height:30px; 
+        
+    }
+    .owl-item-username {
+        font-size:13px;
+        
+    }
+
+    .owl-item-timeago {
+        color: #a239ca;
+        position:relative;
+        top:20px;
+        font-size:11px;
+    }
+    .card img {
+    height: inherit;
+	position: relative;
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: .5; 
+    }
+    #user-icon {
+        width:55px;
+        float:left;
+        margin:5px;
+        font-size:13px;
+    }
+    .card-title {
+        position: relative;
+        top:60%;
+    }
+    .card-text {
+         position: relative;
+        top:60%;
+    }
+    .timeago {
+        color: black;
+        font-size:0.7em;
+    }
+    .featured {
+        /*background-size:cover;
+        background-position: center;*/
+        /*/*color:white;*/      
+        position: relative;
+        top:5em;
+        color: white;
+    }
+
+    .feed {
+        padding-top:30px;
+        /*background-color: #efefef;*/
+    }
+    

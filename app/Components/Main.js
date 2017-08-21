@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import Navbar
-import Carousel from './Carousel';
-import InProgress from './InProgress';
-import Scroll from './Scroll';
-import Footer from './Footer'
+import Navbar from './Dashboard/Navbar/Navbar';
+import Featured from './Dashboard/Featured/View'
+// import Carousel from './Carousel';
+// import InProgress from './InProgress';
+// import Scroll from './Scroll';
+// import Footer from './Footer';
 
 export default class Feed extends Component {
     render() {
         return (
-            <div className="container-fluid">                 
+            <div>                 
                 <Navbar />  
                           {/*Logo + Search + User Dropdown */}
                           {/*User Drop Down:
@@ -28,15 +29,15 @@ export default class Feed extends Component {
                             >Location Search
                                     
                           */}
-                <Featured />  
+                <Featured />
                             {/*Carousel + Featured*/}
-                <InProgress />
-                            {/*Caoursel + UserProgress*/}
-                            {/*UserProgress (Circle profile pics with progress circle ring around pic, 'day 1 of 10' = 10% done*
+                {/*<InProgress />*/}
+                            {/*Caoursel + UserProgress
+                            UserProgress Circle profile pics with progress circle ring around pic, 'day 1 of 10' = 10% done
                                 >Will be able to view entries user has posted so far*/}
-                <UserFeed />
+                {/*<UserFeed />*/}
                             {/*Cards/ Feed from the users Following - No Carousel - Endless Scroll *like instagram*/}
-                <Footer />
+                {/*<Footer />*/}
 
             </div>
 
